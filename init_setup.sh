@@ -1,0 +1,1 @@
+#this is yused to write the command of the linux

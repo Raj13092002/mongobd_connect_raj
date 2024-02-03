@@ -1,1 +1,10 @@
+pandas
+numpy
+
 pymongo
+pymongo[srv]
+dnspython
+ensure 
+pytest
+
+-e .
