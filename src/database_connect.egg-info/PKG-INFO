@@ -7,7 +7,6 @@ Author: rajaryan13092002
 Author-email: rajaryan13092002@gmail.com
 License: MIT
 Project-URL: Bug Tracker, https://github.com/rajaryan13092002/mongodb_package_raj/issues
-Classifier: Programming Language :: Python :: 3.7
 Classifier: Programming Language :: Python :: 3.8
 Classifier: Programming Language :: Python :: 3.9
 Classifier: Operating System :: OS Independent
