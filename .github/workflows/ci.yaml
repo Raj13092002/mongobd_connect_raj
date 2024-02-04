@@ -1,3 +1,5 @@
+
+#this is for continouse intergrations
 name: Python application
 
 on:
@@ -20,7 +22,7 @@ jobs:
     runs-on: ${{ matrix.os }}
     strategy:
       matrix:
-        os: [ubuntu-latest, windows-latest] 
+        os: [ubuntu-latest, windows-latest]  #6 time we check our code os*python_version
         python-version: ["3.8", "3.9"]
 
     steps:
@@ -34,5 +36,5 @@ jobs:
         python -m pip install --upgrade pip
         pip install flake8 pytest tox tox-gh-actions
         pip install -r requirements.txt
-    - name: Test with tox
+    - name: Test with tox  #testing in local environment
       run: tox
